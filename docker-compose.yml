@@ -1,0 +1,9 @@
+services:
+  bar:
+    container_name: my_haproxy
+    restart: always
+    build: .
+    ports:
+      - "80:80"
+
+
